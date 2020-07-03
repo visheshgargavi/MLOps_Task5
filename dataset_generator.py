@@ -21,7 +21,7 @@ for line in file1:
         ip.append(c)
         
 file1.close() 
-pip install pandas
+
 import pandas as pd    
 
 df = pd.DataFrame(ip, columns=['IP', 'DATE', 'URL'])
