@@ -1,5 +1,5 @@
 import re 
-file1 = open('access_log.txt', 'r') 
+file1 = open('/var/log/httpd/access_log', 'r') 
 count = 0
 
 p = re.compile(r'^\d+.\d+.\d+.\d+') 
